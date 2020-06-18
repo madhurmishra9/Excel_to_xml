@@ -90,10 +90,10 @@ def check_xml_data():
                         if sheets.cell(row,col).value == '':# checks if xml cell is empty
                             Cell_Value = None
                         elif sheets.cell(row,col).ctype is read_excel.XL_CELL_DATE:# checks if the xml cell have a date and formats it if the date differs than xml cell value
-                            try:
+                            #try:
                                 Cell_Value = read_excel.xldate_as_datetime(sheets.cell(row,col).value, wb.datemode).strftime('%m/%d/%Y')
-                            except:
-                                pass
+                            #except:
+                                #pass
                         else:
                             Cell_Value = sheets.cell(row,col).value
                         
