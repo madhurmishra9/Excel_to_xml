@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cmd /c \"echo 7| `\"c:\\\\Users\\\\Admin\\\\Downloads\\\\Excel_to_xml\\\\run.bat`\"\" 2>&1)"
+    ]
+  }
+}

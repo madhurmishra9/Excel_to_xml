@@ -1,0 +1,8 @@
+# Core dependencies
+openpyxl>=3.1          # read & write .xlsx/.xlsm
+xlrd==1.2.0            # read legacy .xls (xlrd>=2.0 dropped .xls/.xlsx parity)
+beautifulsoup4>=4.9    # HTML table scraping + legacy parsing
+lxml>=4.6              # parser backend for beautifulsoup
+requests>=2.25         # HTTP(S) fetching of remote feeds/pages
+feedparser>=6.0        # RSS / Atom feed parsing
+pywin32>=300 ; platform_system == "Windows"   # file search across drives
